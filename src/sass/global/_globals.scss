@@ -1,0 +1,21 @@
+// Global design resets
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Media queries' variables
+$mobile: 375px;
+$tablet: 768px;
+$laptop: 1280px;
+$dekstop: 1920px;
+
+// Colors' variables
+$black: #000;
+$white: #fff;
+$green: #cae1d4;
+$cream: #fff8f0;
+$pink: #fcb3b6;
+$red: #d85f22;
+$orange: #ffc082;
