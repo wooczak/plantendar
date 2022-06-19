@@ -1,12 +1,17 @@
+import { Routes, Route } from "react-router-dom";
+import About from "./pages/About/About";
+import Homepage from "./pages/Homepage/Homepage";
+
 const App = () => {
-
   return (
-    <div className="App">
-      <h1>Hello</h1>
-      <h2>Welcome to Plantendar</h2>
-      <p>The best app for you!</p>
-    </div>
-  )
-}
+    <>
+      <Routes>
+        <Route path="/" element={<Homepage />}>
+          <Route path="about" element={<About />} />
+        </Route>
+      </Routes>
+    </>
+  );
+};
 
-export default App
+export default App;

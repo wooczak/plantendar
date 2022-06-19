@@ -1,4 +1,7 @@
 // GLOBAL
-
 @import './global/globals';
 @import './global/typography';
+@import './global/mixins';
+
+// COMPONENTS
+@import './components/navigation';

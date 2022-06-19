@@ -1,0 +1,21 @@
+@media screen and (min-width: $mobile) {
+  .mobile-nav {
+    padding-inline: 0.5rem;
+    padding-block: 1rem;
+    @include display-flex(center, space-between);
+
+    &-logowrap {
+      @include display-flex(center, center);
+    }
+
+    &__heading {
+      margin-left: 0.5rem;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    &__icon {
+      font-size: 1.5em;
+    }
+  }
+}

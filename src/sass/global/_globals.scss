@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    .link {
+        text-decoration: none;
+        
+    }
 }
 
 // Media queries' variables
@@ -19,3 +24,4 @@ $cream: #fff8f0;
 $pink: #fcb3b6;
 $red: #d85f22;
 $orange: #ffc082;
+
